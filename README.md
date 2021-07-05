@@ -3,23 +3,23 @@ Este es una practica de operaciones CRUD que simula pagina mercado libre del cur
 
 las rutas de acceso para crear productos,eliminarlos y editarlos son las sigguientes:
 
-/*** GET ALL PRODUCTS ***/ 
+/*** ver los produtos  ***/ 
 router.get('/', productsController.index); 
 
-/*** CREATE ONE PRODUCT ***/ 
+/*** crer un producto ***/ 
 router.get('/create/', productsController.create); 
 router.post('/store/', productsController.store); 
 
 
-/*** GET ONE PRODUCT ***/ 
+/*** ver el detalle de un producto ***/ 
 router.get('/detail/:id/', productsController.detail); 
 
-/*** EDIT ONE PRODUCT ***/ 
+/*** editar un producto ***/ 
 router.get('/edit/:id/', productsController.edit); 
 router.put('/update/:id', productsController.update); 
 
 
-/*** DELETE ONE PRODUCT***/ 
+/*** eliminar un producto ***/ 
 router.delete('/delete/:id', productsController.destroy); 
 
 
