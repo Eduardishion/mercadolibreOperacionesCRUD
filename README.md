@@ -1,7 +1,7 @@
 # mercadolibreOperaciones CRUD
 Este es una practica de operaciones CRUD que simula pagina mercado libre del curso de DIGITAL HOUSE  programación full stack 
 
-las rutas de acceso para crear productos eliminarlos y edutarlos son las sigguientes
+las rutas de acceso para crear productos,eliminarlos y editarlos son las sigguientes:
 
 /*** GET ALL PRODUCTS ***/ 
 router.get('/', productsController.index); 
