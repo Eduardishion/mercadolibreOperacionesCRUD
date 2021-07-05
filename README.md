@@ -5,24 +5,29 @@ las rutas de acceso para crear productos,eliminarlos y editarlos son las sigguie
 
 ver los produtos  
   /
+<br>
 crear un producto 
 
   /products/create/
   /products/store/
 
-
+<br>
 ver el detalle de un producto 
 
   /products/detail/:id/
-
+  
+<br>
 editar un producto 
 
   /products/edit/:id/
   /products/update/:id
-
+  
+<br>
 eliminar un producto 
 
  /products/delete/:id
+ <br>
+ 
 
 solo falta agregar que resiva imagenss, pero las operaciones esenciales de crear, actuliar, mostrar y eliminar ya son funcionales
 
