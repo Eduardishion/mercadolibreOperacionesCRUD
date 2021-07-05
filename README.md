@@ -7,21 +7,19 @@ las rutas de acceso para crear productos,eliminarlos y editarlos son las sigguie
 router.get('/', productsController.index); 
 
 /*** crer un producto ***/ 
-router.get('/create/', productsController.create); 
-router.post('/store/', productsController.store); 
+/products/create/
+/products/store/
 
 
 /*** ver el detalle de un producto ***/ 
-router.get('/detail/:id/', productsController.detail); 
+/products/detail/:id/
 
 /*** editar un producto ***/ 
-router.get('/edit/:id/', productsController.edit); 
-router.put('/update/:id', productsController.update); 
-
+/products/edit/:id/
+/products/update/:id
 
 /*** eliminar un producto ***/ 
-router.delete('/delete/:id', productsController.destroy); 
-
+/products/delete/:id
 
 solo falta agregar que resiva imagenss, pero las operaciones esenciales de crear, actuliar, mostrar y eliminar ya son funcionales
 
