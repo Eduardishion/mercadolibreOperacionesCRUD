@@ -29,7 +29,9 @@ eliminar un producto
  <br>
  
 
-solo falta agregar que resiva imagenss, pero las operaciones esenciales de crear, actuliar, mostrar y eliminar ya son funcionales
+falta agregar que resiva imagenss, pero las operaciones esenciales de crear, actuliar, mostrar y eliminar ya son funcionales
+
+Para usarlo es necesario instalr las dependencias con: npm install
 
 
 Aqui una vista previa 
