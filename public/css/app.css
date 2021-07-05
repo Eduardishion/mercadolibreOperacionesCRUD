@@ -412,9 +412,11 @@ textarea.form-input {
 /*====== Media-Queries ======*/
 @media (min-width: 768px) {
 
-  .product-box{
+  .container products-wrapper{
+  
     display: flex;
-    
+    /* flex-wrap: wrap; */
+    flex-direction: row;
   }
 
   .main-header_credit-link {

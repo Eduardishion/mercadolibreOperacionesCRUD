@@ -27,7 +27,7 @@
 							</figure>
 							<article class="product-box_data">
 								<h2>FINAL PRICE</h2>
-								<span> % OFF</span>
+								<span><%= (products[i].price-(products[i].discount/100)*products[i].price) %> % OFF</span>
 								<p><%= products[i].name %></p>
 								<i class="fas fa-truck"></i>
 							</article>
